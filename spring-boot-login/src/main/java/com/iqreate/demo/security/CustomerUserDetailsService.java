@@ -32,6 +32,5 @@ public class CustomerUserDetailsService implements UserDetailsService {
         		.build();
 
                       
-            
     }
 }
