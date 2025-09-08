@@ -1,16 +1,16 @@
 package com.iqreate.demo.dto;
 
 public class LoginRequest {
-    private String identifier;
+    private String email;
     private String password;
 
 
 
-    public String getIdentifier() {
-		return identifier;
+    public String getEmail() {
+		return email;
 	}
-	public void setIdentifier(String identifier) {
-		this.identifier = identifier;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
